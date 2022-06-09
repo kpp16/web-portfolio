@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Sora';
+    src: url("/static/Sora/Sora-VariableFont_wght.ttf");
+}
+
+.text {
+    color: rgb(207, 207, 207);
+    font-family: 'Sora';
+    font-size: 3.0vh;
+    text-align: left;
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+}
+
+.container {
+    text-align: left;
+}
+
+.wrap {
+    /* style={{fontSize: "2.0vh", fontFamily: "monospace"}} */
+    font-size: 2.0vh;
+    font-family: monospace;
+    display: inline-block;
+}
+
+.bgColor {
+    background-color: #1e0125;
+}
+
+.App-header-about {
+    background-color: #202020;
+    min-height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 2%;
+    /* justify-content: center; */
+    /* font-size: calc(10px + 2vmin); */
+}
+  
+  
