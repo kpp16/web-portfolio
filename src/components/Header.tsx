@@ -1,6 +1,6 @@
 import React from "react";
 import './Header.css'
-import {Navbar, Nav, Container, NavDropdown} from "react-bootstrap";
+import {Navbar, Nav, Container} from "react-bootstrap";
 
 const Header = () => {
     return (
@@ -13,6 +13,7 @@ const Header = () => {
             <Nav className="ms-auto">
                 <Nav.Link href="about" style={{fontSize: "2.0vh"}}>About</Nav.Link>
                 <Nav.Link href="projects" style={{fontSize: "2.0vh"}}>Projects</Nav.Link>
+                <Nav.Link href="resume" style={{fontSize: "2.0vh"}}>Resume</Nav.Link>
             </Nav>
             </Navbar.Collapse>
             </Container>

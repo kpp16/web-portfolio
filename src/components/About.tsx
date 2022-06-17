@@ -21,7 +21,7 @@ const About = () => {
                             <br />
                             <br />
                             I'm primarily interested in <b>Software Development</b>, backend specifically. I'm also interested in learning more about quantitative finance and trading. 
-                            Right now, you'll find me learning Discrete Math and making cool web-apps.
+                            Right now, you'll find me learning Discrete Math and developing web-apps.
                             <br />
                             <br />
                             Outside of school, you'll find me watching anime, exploring nature and learning about space travel :)

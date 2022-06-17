@@ -8,16 +8,15 @@ import {
   Routes,
   Route,
   useLocation,
-  Link
 } from "react-router-dom";
 import About from './components/About';
+import Projects from './components/Projects';
+import Resume from './components/Resume';
 import 'bootstrap/dist/css/bootstrap.css';
 import {
   TransitionGroup,
   CSSTransition,
-  SwitchTransition
 } from 'react-transition-group';
-import type { FC } from "react";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -31,6 +30,8 @@ const IDX = () => {
         <Routes location={location}>
           <Route path="/" element={<App />} />
           <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </CSSTransition>
     </TransitionGroup>    

@@ -1,0 +1,28 @@
+.projectsBody {
+    min-height: 100vh;
+    background-color: #202020;
+    padding: 2%;
+}
+
+.text {
+    color: rgb(207, 207, 207);
+    font-family: 'Sora';
+    font-size: 3.0vh;
+    text-align: left;
+}
+
+.container {
+    text-align: left;
+}
+
+.wrap {
+    /* style={{fontSize: "2.0vh", fontFamily: "monospace"}} */
+    font-size: 2.0vh;
+    font-family: monospace;
+    display: inline-block;
+}
+
+.link {
+    color: rgb(207, 207, 207);
+    text-decoration: none;
+}
